@@ -92,7 +92,7 @@ footer b{color:#fff;display:block}
 <div class="hero"><div class="wrap">
   <span class="eyebrow">Knowledge Sharing · QSHE Departemen</span>
   <h1>QSHE Bulletin</h1>
-  <p>Bulletin bulanan QSHE Departemen seputar Process Safety, Occupational Safety, Health, dan Environment: mulai dari studi kasus insiden, konsep dan prinsip keselamatan, hingga praktik terbaik di lapangan. Bacaan ±10 menit per edisi, dilengkapi kuis berhadiah.</p>
+  <p>Bulletin bulanan QSHE Departemen seputar Process Safety, Occupational Safety, Health, dan Environment: mulai dari studi kasus insiden, konsep dan prinsip keselamatan, hingga praktik terbaik di lapangan. Bacaan singkat per edisi, dan sebagian edisi dilengkapi kuis berhadiah.</p>
   <div class="stats"><div><b id="sEd">0</b><span>Edisi terbit</span></div><div><b id="sKat">4</b><span>Kategori</span></div></div>
 </div></div>
 
@@ -127,11 +127,18 @@ var KATEGORI = {
    ================================================================ */
 var EDISI = [
   {
+    kategori: "process-safety", no: "02", bulan: "November 2026",
+    judul: "Ledakan T2 Laboratories 2007: Ketika Reaksi Kimia \"Tidak Bisa Direm\"",
+    ringkas: "Reaktor kehilangan pendinginan dan dalam 10 menit reaksi di dalamnya lepas kendali sampai meledak. Dijelaskan dengan bahasa sederhana.",
+    tag: ["Runaway reaction", "Pendinginan", "Relief system", "Hazard analysis"],
+    file: "ps-02-t2-runaway.html", kuis: true
+  },
+  {
     kategori: "health", no: "01", bulan: "November 2026",
     judul: "Health Bulletin — Stroke: Kenali Gejalanya, Jangan Abaikan Waktu!",
     ringkas: "Kenali tanda SeGeRa KeRS, pahami golden period kurang dari 4,5 jam, dan ketahui langkah pertolongan saat rekan kerja terkena serangan stroke.",
     tag: ["Health Bulletin", "Stroke", "SeGeRa KeRS", "Tanggap darurat medis"],
-    file: "hlt-01-stroke.html", kuis: true
+    file: "hlt-01-stroke.html", kuis: false
   },
   {
     kategori: "process-safety", no: "01", bulan: "Oktober 2026",
